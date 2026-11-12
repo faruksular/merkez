@@ -1,15 +1,28 @@
 {
   "schemaVersion": 2,
   "apiVersion": 2,
-  "type": "resolver",
-  "dependencies": [],
+  "type": "site",
+  "dependencies": [
+    {
+      "publisher": "794da8bdb131a060a19405d1cbe25dc0fc2ccd7ba5dc22a8d89189bd84d4c99e",
+      "id": "r008",
+      "minVersion": "1.0.0",
+      "maxVersion": "2.0.0"
+    }
+  ],
   "minCoreVersion": "2.0.0",
-  "id": "r008",
-  "name": "Diziyou Resolver",
+  "id": "p008",
+  "name": "Diziyou",
   "version": "1.0.0",
   "minAppVersion": "2.0.0",
+  "site": {
+    "id": "p008",
+    "prefix": "p008:",
+    "name": "Diziyou",
+    "base": "https://www.diziyou.one"
+  },
   "modules": [
-    "resolver.js"
+    "site.js"
   ],
   "networkPolicy": {
     "file": "network-policy.txt",
@@ -17,9 +30,9 @@
   },
   "files": [
     {
-      "path": "resolver.js",
-      "size": 12410,
-      "sha256": "f74bf07f4f1a5a7926dfe720954eda4aec488fe78cf85ac17f2b506ac08b1f77"
+      "path": "site.js",
+      "size": 17616,
+      "sha256": "dcb4f0f7a16178222bec6e3c37008e5eaf43acbe0f7806959b1e54ac8a6abcd2"
     },
     {
       "path": "LICENSE.txt",
@@ -28,13 +41,13 @@
     },
     {
       "path": "network-policy.txt",
-      "size": 95,
-      "sha256": "db77dbe4e42a6d82605e2059c17d1f4f4c288e807cd5b96f419c711ddc0d9883"
+      "size": 67,
+      "sha256": "68a38d62637db293ec3f4afb75044307a7b8e10322b004a266c7175d4998904a"
     },
     {
       "path": "network-policy.signature.txt",
       "size": 345,
-      "sha256": "d5e101bd7b98a078ee99105e363a1b02033a6dcd611d05db760959213d1d7c3f"
+      "sha256": "ea7a20a43bda89a85886b62eeb1e004119dbbd321015156b951467ee02b03f11"
     }
   ]
 }
