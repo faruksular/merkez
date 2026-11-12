@@ -1,0 +1,12 @@
+Diziyou Film Merkezi adapter
+
+This is an independent community adapter written for the Film Merkezi plugin API.
+It is not affiliated with, endorsed by, or sponsored by Diziyou or Film Merkezi.
+
+The adapter contains original integration code and protocol/markup compatibility
+logic based on the user-provided Diziyou provider reference. Website content,
+logos, video files, subtitles, and other third-party materials remain the property
+of their respective rights holders. This adapter does not grant access rights or
+licenses to third-party content.
+
+Use only where you have the right to access the target service and its content.
