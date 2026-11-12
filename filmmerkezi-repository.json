@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "id": "diziyou-community",
+  "name": "Diziyou Community Extensions",
+  "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwW0ogQLW+GPnEtxNjO4vQlsNoATx4JBStIZMO2DShND5M5mNLIY6hCVLJ1h6rb5qJ1aNZ3NyBQJygDqwNRrg1WrTqDiz41VIBNS0eXlFG0jN6RrQmnHXJyMiso9mY9Qsc8bzXKnt+kFyT29srmhcxI7LBwquGO+MLY8KoB3cA5Nhz11FKieZIH+NSdhbzat1YqmBYMSPSssY0RLReOBQUx92ghh0gS3ozttz5kiq1Ddhs5Wh5g1NruHVlSC/n7EpnLAF5ld0wT0xb2fkHKjFHg2yPIkppjf2b/STFysZvbPRnpnO27R2V0pkZHM7e8RdT3+zfnDb/Fk4JGV7AVYL/wIDAQAB",
+  "revision": 2,
+  "plugins": [
+    {
+      "id": "r008",
+      "type": "resolver",
+      "name": "Diziyou Resolver",
+      "version": "1.0.0",
+      "description": "Diziyou iframe, HLS, ses seçeneği ve VTT altyazı çözümleyicisi",
+      "manifest": "packages/r008/1.0.0/manifest.json",
+      "manifestSha256": "b606f4d98e4d186dc9c8a40a2140fb2e230f8e6b1dbecaf35bf3a6547960f680"
+    },
+    {
+      "id": "p008",
+      "type": "site",
+      "name": "Diziyou",
+      "version": "1.0.0",
+      "description": "Diziyou dizi arşivi, arama, dizi detayları ve bölüm kataloğu",
+      "manifest": "packages/p008/1.0.0/manifest.json",
+      "manifestSha256": "0e5309cad6975aa3b5b88e1cc3328a9ea68bfb79d8cafc2dc42495463fed9d3e"
+    }
+  ]
+}
