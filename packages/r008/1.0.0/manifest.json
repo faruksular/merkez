@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "apiVersion": 2,
+  "type": "resolver",
+  "dependencies": [],
+  "minCoreVersion": "2.0.0",
+  "id": "r008",
+  "name": "Diziyou Resolver",
+  "version": "1.0.0",
+  "minAppVersion": "2.0.0",
+  "modules": [
+    "resolver.js"
+  ],
+  "networkPolicy": {
+    "file": "network-policy.txt",
+    "signature": "network-policy.signature.txt"
+  },
+  "files": [
+    {
+      "path": "resolver.js",
+      "size": 12410,
+      "sha256": "f74bf07f4f1a5a7926dfe720954eda4aec488fe78cf85ac17f2b506ac08b1f77"
+    },
+    {
+      "path": "LICENSE.txt",
+      "size": 631,
+      "sha256": "fecd02e3d20f4f805c60e44668f03052f84dbe0a61eb0c0b5639629c01b41a4b"
+    },
+    {
+      "path": "network-policy.txt",
+      "size": 95,
+      "sha256": "db77dbe4e42a6d82605e2059c17d1f4f4c288e807cd5b96f419c711ddc0d9883"
+    },
+    {
+      "path": "network-policy.signature.txt",
+      "size": 345,
+      "sha256": "d5e101bd7b98a078ee99105e363a1b02033a6dcd611d05db760959213d1d7c3f"
+    }
+  ]
+}
